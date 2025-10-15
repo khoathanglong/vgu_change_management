@@ -39,9 +39,6 @@ const Recommendations: React.FC = () => {
             <Point title='Develop a "COIL Playbook"'>
               Create a single, accessible document that outlines the entire process from start to finish. This should include a step-by-step guide for course approval, standardized templates for syllabi, and clear guidelines on student assessment and grading.
             </Point>
-            <Point title="Streamline Approval Workflows">
-              Reduce the number of departments and signatures required to approve a COIL collaboration. Designate a single point of contact or a small committee to handle COIL proposals to ensure a quick and efficient process.
-            </Point>
             <Point title="Decouple from Formal Assessment Initially">
               To lower the barrier to entry, encourage pilot projects that are "feasible as far as no assessments are involved." This allows faculty to gain experience without the added complexity of aligning grading systems, a major point of concern.
             </Point>
@@ -69,8 +66,11 @@ const Recommendations: React.FC = () => {
             <Point title="Formalize Workload Recognition">
                 Amend faculty workload models to officially recognize the time and effort required for developing and teaching a COIL course, equivalent to a standard course.
             </Point>
-            <Point title="Offer Course Releases or Stipends">
-                Provide tangible support for faculty who are developing the first wave of COIL courses. This directly addresses the 39% who feel they lack sufficient time.
+            <Point title='Offer "COIL Innovation Sprints"'>
+              Designate specific periods (e.g., a few weeks in the summer or a less intensive teaching term) where faculty can apply for dedicated time to focus solely on COIL course development with their international partner.
+            </Point>
+            <Point title="Provide Dedicated Administrative Support">
+              Assign administrative staff or student assistants to COIL projects to handle the logistical burdens that consume faculty time, such as scheduling across time zones, managing student communication, and troubleshooting basic technology. This allows faculty to focus on the academic and pedagogical aspects of their role.
             </Point>
           </RecommendationCard>
 
@@ -83,9 +83,6 @@ const Recommendations: React.FC = () => {
             </Point>
             <Point title="Standardize and Support Key Platforms">
                 Designate and provide robust support for a primary Learning Management System (LMS) and a set of communication tools (e.g., Zoom, Teams) to ensure a stable and consistent technical environment. While not the top barrier, ensuring reliable technology is a foundational need.
-            </Point>
-            <Point title="Conduct an Infrastructure Audit">
-                Assess the current state of the university's IT infrastructure and, crucially, survey students to understand their access to reliable internet and devices.
             </Point>
             <Point title="Provide Dedicated IT Support">
                 Create a specific support channel for faculty and students involved in COIL courses to quickly resolve technical issues.
