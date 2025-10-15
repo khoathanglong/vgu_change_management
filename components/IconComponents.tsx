@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 export const ClipboardIcon: React.FC = () => (
@@ -33,7 +32,12 @@ export const TechIcon: React.FC = () => (
 
 export const CultureIcon: React.FC = () => (
     <svg xmlns="http://www.w3.org/2000/svg" className="w-full h-full" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2h10a2 2 0 002-2v-1a2 2 0 012-2h1.945M7.707 4.293a1 1 0 010 1.414L4.414 9H19.586l-3.293-3.293a1 1 0 010-1.414a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L19.586 11H4.414l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 14c-2.667 0-5 1.79-5 4v2h10v-2c0-2.21-2.333-4-5-4z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 10a4 4 0 100-8 4 4 0 000 8z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M20.5 17c.667 0 1.5.224 1.5 1v2h-3v-2c0-.776.833-1 1.5-1z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M20.5 14a2.5 2.5 0 100-5 2.5 2.5 0 000 5z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3.5 17c-.667 0-1.5.224-1.5 1v2h3v-2c0-.776-.833-1-1.5-1z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3.5 14a2.5 2.5 0 100-5 2.5 2.5 0 000 5z" />
     </svg>
 );
 
