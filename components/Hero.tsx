@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Hero: React.FC = () => {
@@ -14,10 +13,10 @@ const Hero: React.FC = () => {
           Building Better Global Classrooms
         </h1>
         <h3 className="text-xl md:text-2xl font-light mb-8">
-          Key Learnings from the 2025 COIL Participant Survey
+          Insights from a COIL Survey of NNU Teaching Staff
         </h3>
         <p className="max-w-3xl mx-auto mb-10 text-lg text-gray-200">
-          Our in-depth survey of 250 students reveals what truly makes Collaborative Online International Learning work. Discover the data-driven insights you need to design more effective, engaging, and equitable global learning experiences.
+          This report presents findings from a survey on Collaborative Online International Learning (COIL) conducted with teaching staff at NNU. From an initial pool of 117 participants, 45 provided complete responses, forming the basis of our analysis. This work was completed as an assignment for the "Change and Innovation Management" course (BIS2025) at the Vietnamese-German University (VGU).
         </p>
         <a
           href="#KeyFindings"

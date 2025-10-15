@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { ClipboardIcon, SpeechBubbleIcon, BrokenLinkIcon, ThumbsUpIcon } from './IconComponents';
+import { ProcessesIcon, MindsetIcon, TimeIcon, SystemsIcon } from './IconComponents';
 
 interface StatCardProps {
   icon: React.ReactNode;
@@ -9,7 +8,7 @@ interface StatCardProps {
 }
 
 const StatCard: React.FC<StatCardProps> = ({ icon, statistic, text }) => (
-  <div className="bg-white p-6 rounded-lg shadow-lg text-center transform hover:-translate-y-2 transition-transform duration-300">
+  <div className="bg-white p-6 rounded-lg shadow-lg text-center transform hover:-translate-y-2 transition-transform duration-300 h-full flex flex-col justify-center">
     <div className="text-[#0A4C7A] w-16 h-16 mx-auto mb-4">{icon}</div>
     <p className="text-5xl font-bold text-[#F26419] mb-2">{statistic}</p>
     <p className="text-gray-600 font-semibold">{text}</p>
@@ -26,24 +25,24 @@ const KeyFindings: React.FC = () => {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <StatCard 
-            icon={<ClipboardIcon />}
-            statistic="82%"
-            text="Demand Clearer Structure: Participants' #1 request is for better project guidelines and expectations."
+            icon={<ProcessesIcon />}
+            statistic="56%"
+            text="Agree the university should establish clear policies to encourage COIL."
           />
           <StatCard 
-            icon={<SpeechBubbleIcon />}
-            statistic="75%"
-            text="Point to Culture: Team conflicts are most often blamed on unaddressed cultural and communication differences."
+            icon={<MindsetIcon />}
+            statistic="53%"
+            text="Lack confidence in their English ability to conduct a COIL course."
           />
           <StatCard 
-            icon={<BrokenLinkIcon />}
-            statistic="68%"
-            text="Face Tech Hurdles: A majority of students experience significant disruptions from technology issues."
+            icon={<TimeIcon />}
+            statistic="39%"
+            text="Report they do not have sufficient time."
           />
           <StatCard 
-            icon={<ThumbsUpIcon />}
-            statistic="40%"
-            text="Higher Success Rate: Teams with intercultural training are 40% more likely to rate their collaboration as 'highly effective.'"
+            icon={<SystemsIcon />}
+            statistic="59%"
+            text="Feel they lack international partners to collaborate with."
           />
         </div>
       </div>

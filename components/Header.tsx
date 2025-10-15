@@ -1,10 +1,9 @@
-
 import React, { useState } from 'react';
 
 const navLinks = [
   { name: 'Home', href: '#Home' },
   { name: 'Key Findings', href: '#KeyFindings' },
-  { name: 'The Four Pillars', href: '#TheFourPillars' },
+  { name: 'Pillars of Change', href: '#TheFourPillars' },
   { name: 'Recommendations', href: '#Recommendations' },
 ];
 
